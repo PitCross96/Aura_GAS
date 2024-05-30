@@ -28,5 +28,5 @@ public:
 	
 protected:
 
-	void EffectApplied(UAbilitySystemComponent* AbiltySystemComponent, const FGameplayEffectSpec& EffectSpec, FActiveGameplayEffectHandle ActiveEffectHandle);
+	void ClientEffectApplied(UAbilitySystemComponent* AbiltySystemComponent, const FGameplayEffectSpec& EffectSpec, FActiveGameplayEffectHandle ActiveEffectHandle);
 };
